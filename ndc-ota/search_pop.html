@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="ko" xml:lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!-- css -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/header.css">
+ <link rel="stylesheet" href="css/footer.css">
+ <link rel="stylesheet" href="css/common.css">
+
+
+ <!-- js -->
+ <!-- <script src="js/jquery-1.7.2.min.js"></script>
+ <script src="bootstrap/js/bootstrap.min.js"></script>
+ <script src="js/common.js"></script>
+ <script src="js/swiper.min.js"></script> -->
+
+ <title>jieun</title>
+ </head>
+
+ <!--footer가 없는 페이지에는 body에 클래스추가-->
+<body class="pb-0">
+
+<header>
+  <div class="search_header container">
+    <button type="button" class="back"></button>
+      <div class="my_search_box">
+        <a href="">
+          <span class="info">
+            <span>부산</span>
+            <span class="air_icon_rotate"></span>
+            <!--<span class="air_icon"></span>은 편도 비행기한줄-->
+            <span>제주</span>
+          </span>
+          <span class="info day_info">
+            <span>8월 25일</span>
+            -
+            <span>8월 28일</span>
+            <span>승객 1</span>
+            <span>일반석</span>
+            <span class="more"></span>
+          </span>
+        </a>
+      </div>
+    <button type="button" class="menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+<div class="popup_wrap" style="display:block;">
+  <div class="popup">
+    <div class="pop_tit">
+      <button type="button" class="btn-close">
+        <span class="blind">닫기</span>
+      </button>
+      <h4>항공편 검색</h4>
+    </div>
+    <div class="pop_cont">
+      <div class="container">
+        <div class="flight_select">
+          <ul class="float-left">
+            <li class="on"><a href="">왕복</a></li>
+            <li><a href="">편도</a></li>
+            <li><a href="">다구간</a></li>
+          </ul>
+    		</div>
+        <div class="search_form">
+            <!--왕복-->
+             <ul class="">
+              <li class="">
+                <div>
+                  <a class="city" href="">
+                    <span class="code">SEL</span>
+                    <span class="name">서울</span>
+                  </a>
+                </div>
+                <div class="txt-right">
+                  <a class="city" href="">
+                    <span class="code">LON</span>
+                    <span class="name">런던</span>
+                  </a>
+                </div>
+                <span class="rotate">
+                  <button type="button">
+                    <i class="air_icon_rotate"></i>
+                    <span class="blind">출발도시, 도착도시 변경</span>
+                  </button>
+                </span>
+              </li>
+              <li class="">
+                <div>
+                  <a class="box day" href="">
+                    <span class="tit">가는 날</span>
+                    <span class="txt">가는날 선택</span>
+                  </a>
+                </div>
+                <div class="txt-right">
+                  <a class="box day" href="">
+                    <span class="tit">오는날</span>
+                    <span class="txt">오는날 선택</span>
+                  </a>
+                </div>
+              </li>
+            </ul>
+            <!--//왕복-->
+
+            <!--편도-->
+            <!-- <ul class="">
+              <li class="">
+                <div>
+                  <a class="city" href="">
+                    <span class="code">SEL</span>
+                    <span class="name">서울</span>
+                  </a>
+                </div>
+                <div class="txt-right">
+                  <a class="city" href="">
+                    <span class="code">LON</span>
+                    <span class="name">런던</span>
+                  </a>
+                </div>
+                <span class="rotate">
+                  <button type="button">
+                    <i class="air_icon"></i>
+                    <span class="blind">출발도시, 도착도시 변경</span>
+                  </button>
+                </span>
+              </li>
+              <li class="">
+                <div>
+                  <a class="box day" href="">
+                    <span class="tit">가는 날</span>
+                    <span class="txt">가는날 선택</span>
+                  </a>
+                </div>
+              </li>
+            </ul> -->
+            <!--//편도-->
+
+            <!--다구간-->
+            <!-- <ul class="">
+              <li class="">
+                <div>
+                  <a class="city" href="">
+                    <span class="code">SEL</span>
+                    <span class="name">서울</span>
+                  </a>
+                </div>
+                <div class="txt-right">
+                  <a class="city" href="">
+                    <span class="code">LON</span>
+                    <span class="name">런던</span>
+                  </a>
+                </div>
+                <span class="rotate">
+                  <button type="button">
+                    <i class="air_icon"></i>
+                    <span class="blind">출발도시, 도착도시 변경</span>
+                  </button>
+                </span>
+              </li>
+              <li class="">
+                <div>
+                  <a class="box day" href="">
+                    <span class="tit">여정 1</span>
+                    <span class="txt">가는날 선택</span>
+                  </a>
+                </div>
+              </li>
+              <li class="">
+                <div>
+                  <a class="city" href="">
+                    <span class="code">SEL</span>
+                    <span class="name">서울</span>
+                  </a>
+                </div>
+                <div class="txt-right">
+                  <a class="city" href="">
+                    <span class="code">LON</span>
+                    <span class="name">런던</span>
+                  </a>
+                </div>
+                <span class="rotate">
+                  <button type="button">
+                    <i class="air_icon"></i>
+                    <span class="blind">출발도시, 도착도시 변경</span>
+                  </button>
+                </span>
+              </li>
+              <li class="">
+                <div>
+                  <a class="box day" href="">
+                    <span class="tit">여정 2</span>
+                    <span class="txt">가는날 선택</span>
+                  </a>
+                </div>
+              </li>
+            </ul> -->
+            <!--//다구간-->
+            <!--탑승객 선택 고정-->
+            <ul class="mt-24">
+              <li class="">
+                <div>
+                  <a class="box passenger" href="">
+                    <span class="tit">탑승객</span>
+                    <span class="txt">
+                      성인<span>10</span>,
+                      아동<span>1</span>,
+                      유아<span>1</span>
+                    </span>
+                  </a>
+                </div>
+                <div class="txt-right">
+                  <a class="box passenger" href="">
+                    <span class="tit">좌석등급</span>
+                    <span class="txt">일반석</span>
+                  </a>
+                </div>
+              </li>
+            </ul>
+            <!--//탑승객선택-->
+          </div>
+          <div class="btn-box">
+            <button type="button" class="btn btn-primary">검색</button>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>

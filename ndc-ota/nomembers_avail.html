@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ko" xml:lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!-- css -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/header.css">
+ <link rel="stylesheet" href="css/footer.css">
+ <link rel="stylesheet" href="css/common.css">
+
+
+ <!-- js -->
+ <!-- <script src="js/jquery-1.7.2.min.js"></script>
+ <script src="bootstrap/js/bootstrap.min.js"></script>
+ <script src="js/common.js"></script>
+ <script src="js/swiper.min.js"></script> -->
+
+ <title>jieun</title>
+ </head>
+
+ <!--footer가 없는 페이지에는 body에 클래스추가-->
+<body class="pb-0">
+
+  <header>
+    <div class="header container">
+      <button type="button" class="back"></button>
+      <h2>비회원 예약 조회</h2>
+      <button type="button" class="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+<div class="">
+  <div class="container">
+    <div class="content_box">
+      <div class="content">
+        <div class="form_wrap pd-0">
+          <h4 class="border_ti">비회원 예약조회</h4>
+          <div class="tab_wrap">
+            <div class="tab_menu">
+              <button class="tablinks active">항공</button>
+              <!-- <button class="tablinks">호텔</button>
+              <button class="tablinks">렌트</button> -->
+            </div>
+            <div id="tab1" class="tabcontent">
+              <form>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1" class="blind">예약 번호</label>
+                    <input type="number" class="form-control" id="exampleInputEmail1" placeholder="예약번호">
+                    <span class="txt-validation">입력하신 예약번호가 존재하지 않습니다.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1" class="blind">이메일 또는 전화번호</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="이메일 또는 전화번호">
+                    <span class="txt-validation"></span>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- <div id="tab2" class="tabcontent"> 탭2 내용</div> -->
+          </div>
+          <div class="login_link">
+            <a href="">예약번호 찾기</a>
+          </div>
+        </div>
+        <div class="btn-box">
+          <button type="button" class="btn btn-lgray">예약 조회</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+header {
+    height: 60px;
+    max-width: 1170px;
+    margin: 0px auto;
+}
+header h2{
+  font-size:20px;
+  font-weight:bold;
+  text-align:center;
+  margin:0;
+  position:relative;
+  height:60px;
+  line-height:60px;
+}
+.header{
+  position:relative;
+  border-bottom: 1px solid #ddd;
+}
+.header.bg {
+    background: #63accf;
+    color: #fff;
+    position: relative;
+    border-bottom: 0;
+    height: 60px;
+}
+.header.bg button.back{
+  background:url('../images/icon/arrow_wh.png');
+  width:50px;
+  height:50px;
+  background-size:20px;
+  background-repeat: no-repeat;
+  background-position:50% 50%;
+  transform: rotate(90deg);
+  position:absolute;
+  left:0;
+  top: 5px;
+  z-index:10;
+}
+button.menu{
+  width:50px;
+  height:50px;
+  position:absolute;
+  right:0;
+  top: 5px;
+  background-color: transparent;
+  z-index:10;
+}
+.header.bg button.menu span{
+  display:block;
+  width:20px;
+  height:1px;
+  background:#fff;
+  margin:4px auto;
+}
+
+.search_header {
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    max-width: 1170px;
+    z-index:10;
+    border-bottom:1px solid #ddd;
+}
+.search_header .more{
+    display:inline-block;
+    margin-left:4px;
+    background: url(../images/icon/arrow_bk.png);
+    width: 10px;
+    height: 10px;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    vertical-align:middle;
+}
+.search_header button.back, .header button.back{
+  background:url('../images/icon/arrow_bk.png');
+  width:50px;
+  height:50px;
+  background-size:20px;
+  background-repeat: no-repeat;
+  background-position:50% 50%;
+  transform: rotate(90deg);
+  position:absolute;
+  left:0;
+  top: 5px;
+}
+.search_header button.menu span, .header button.menu span{
+  display:block;
+  width:20px;
+  height:1px;
+  background:#000;
+  margin:4px auto;
+}
+.search_header .my_search_box {
+    border: 0;
+    height: 60px;
+    box-shadow: none;
+    margin: 0;
+    padding: 5px 30px;
+}
+.search_header .my_search_box a{
+  display:block;
+}

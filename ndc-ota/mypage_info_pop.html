@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ko" xml:lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!-- css -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/header.css">
+ <link rel="stylesheet" href="css/footer.css">
+ <link rel="stylesheet" href="css/common.css">
+
+
+ <!-- js -->
+ <!-- <script src="js/jquery-1.7.2.min.js"></script>
+ <script src="bootstrap/js/bootstrap.min.js"></script>
+ <script src="js/common.js"></script>
+ <script src="js/swiper.min.js"></script> -->
+
+ <title>jieun</title>
+ </head>
+<body class="overflow_hidden">
+<!--팝업띄울때 body에 overflow:hidden 걸어주기 (이중스크롤 방지) class="overflow_hidden"-->
+
+<div class="popup_wrap" style="display:block;">
+  <div class="popup">
+    <div class="pop_tit">
+      <button type="button" class="btn-close">
+        <span class="blind">닫기</span>
+      </button>
+      <h4>예약자 정보 수정</h4>
+    </div>
+    <div class="pop_cont">
+      <div class="content_box inner_pd">
+            <div class="content">
+              <div class="login_wrap">
+                <div class="form_wrap pd-0 mt-0">
+                  <form>
+                    <div class="form-group-box">
+                      <div class="form-group">
+                        <label for="exampleInputEmail1" class="blind">이름</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="이름"  disabled="">
+                      </div>
+                    </div>
+                    <div class="form-group-box">
+                      <div class="form-group">
+                        <label for="exampleInputEmail1" class="blind">이메일 주소</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="test@www.co.kr">
+                      </div>
+                    </div>
+                    <div class="form-group-box">
+                      <div class="form-group">
+                        <label for="exampleInputPassword1" class="blind">휴대폰번호</label>
+                        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="휴대폰번호">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <div class="btn-box">
+                <button type="button" class="btn btn-primary">확인</button>
+              </div>
+
+            </div>
+          </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>

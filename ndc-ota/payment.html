@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="ko" xml:lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!-- css -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/header.css">
+ <link rel="stylesheet" href="css/footer.css">
+ <link rel="stylesheet" href="css/common.css">
+
+
+ <!-- js -->
+ <!-- <script src="js/jquery-1.7.2.min.js"></script>
+ <script src="bootstrap/js/bootstrap.min.js"></script>
+ <script src="js/common.js"></script>
+ <script src="js/swiper.min.js"></script> -->
+
+ <title>jieun</title>
+ </head>
+
+ <!--footer가 없는 페이지에는 body에 클래스추가-->
+<body class="pb-0">
+
+  <header>
+    <div class="header container">
+      <button type="button" class="back"></button>
+      <h2>결제하기</h2>
+      <button type="button" class="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+<div class="">
+  <div class="content_box_border">
+    <div class="content_box inner"><!---->
+      <div class="content">
+        <div class="container">
+          <div class="text_box">
+            <p class="txt-red mt-10">
+              예약 도중 페이지를 이탈할 경우 예약이 취소됩니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div><!--//-->
+    <div class="content_box inner"><!--여정요약정보-->
+      <div class="content">
+        <div class="container">
+          <div class="form_wrap">
+            <h4>여정 정보</h4>
+            <div>
+              <span class="line">
+                <span>성인 2</span>
+                <span>아동 1</span>
+                <span>유아 1</span>
+              </span>
+              <a href="" class="tit_more">자세히보기</a>
+            </div>
+            <div class="card_border">
+                <div class="card_top">
+                  <div class="avail_info">
+                    <div class="air_time">
+                      <ul class="float-left">
+                        <li>
+                          <span class="txt_b">12:25</span>
+                          <span class="txt_s">ICN</span>
+                        </li>
+                        <li>
+                          <div class="line_wrap">
+                            <span class="line"><em></em></span>
+                            <spnn class="txt_s">20시간 40분
+                          </spnn></div>
+                        </li>
+                        <li>
+                          <span class="txt_b">00:25</span>
+                          <span class="txt_s txt-right">JFK</span>
+                        </li>
+                      </ul>
+                      <span class="plus_time">+1</span>
+                    </div>
+                    <div class="air_line">
+                      <span>
+                        <i class="icon_logo"><img src="images/icon/logo5.png"></i>
+                        <span>아시아나항공</span>
+                      </span>
+                      <span class="txt_color"><span>2</span>회 경유</span>
+                    </div>
+                  </div>
+                  <div class="avail_info">
+                    <div class="air_time">
+                      <ul class="float-left">
+                        <li>
+                          <span class="txt_b">12:25</span>
+                          <span class="txt_s">ICN</span>
+                        </li>
+                        <li>
+                          <div class="line_wrap">
+                            <span class="line"><em></em></span>
+                            <spnn class="txt_s">20시간 40분
+                          </spnn></div>
+                        </li>
+                        <li>
+                          <span class="txt_b">00:25</span>
+                          <span class="txt_s txt-right">JFK</span>
+                        </li>
+                      </ul>
+                      <span class="plus_time">+2</span>
+                    </div>
+                    <div class="air_line">
+                      <span>
+                        <i class="icon_logo"><img src="images/icon/logo5.png"></i>
+                        <span>아시아나항공</span>
+                      </span>
+                      <span class="txt_color"><span>2</span>회 경유</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card_bottom">
+                  <a class="total_wrap" href="">
+                    <span class="total">1,800,500 원
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div><!--//여정요약정보-->
+
+    <div class="content_box inner"><!--카드 정보-->
+      <div class="content">
+        <div class="container">
+          <div class="form_wrap pd-0">
+            <h4>카드 정보</h4>
+              <form>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <div class="radio_box_inline">
+                      <span class="">
+                        <input id="text1" name="radio_test" type="radio" checked="">
+                        <label for="text1">
+                          <span>개인카드</span>
+                        </label>
+                      </span>
+                      <span>
+                        <input id="text2" name="radio_test" type="radio" checked="">
+                        <label for="text2">
+                          <span>법인카드</span>
+                        </label>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">카드번호</label>
+                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="카드번호 '-'제외 숫자만 입력">
+                    <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">유효기간</label>
+                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="유효기간 월/연도 (MMYY)">
+                    <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">생년월일</label>
+                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="카드 소지자 생년월일(예 : 19840905)">
+                    <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">비밀번호</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="비밀번호 앞 두자리">
+                    <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <div class="select_box">
+                      <select name="">
+                          <option value="">할부</option>
+                          <option value="1개월">1개월</option>
+                          <option value="2개월">2개월</option>
+                          <option value="3개월">3개월</option>
+                          <option value="4개월">4개월</option>
+                          <option value="5개월">5개월</option>
+                          <option value="6개월">6개월</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <div class="notice_box agree pt-14">
+                <div class="agree_wrap">
+                  <ul>
+                    <li class="">
+                      <div class="check_box">
+                        <input id="checkbox1" name="checkbox" type="checkbox">
+                        <label for="checkbox1">
+                          <span class="txt-red">상품명, 상품가격, 예약일시, 취소규정을 확인하고 결제 진행에 동의합니다.</span>
+                        </label>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="btn-box">
+              <button type="button" class="btn btn-primary">결제</button>
+            </div>
+        </div>
+      </div>
+    </div><!--//예약자정보-->
+
+
+    <div class="container">
+
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>

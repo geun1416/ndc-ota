@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="ko" xml:lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!-- css -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/header.css">
+ <link rel="stylesheet" href="css/footer.css">
+ <link rel="stylesheet" href="css/common.css">
+
+
+ <!-- js -->
+ <!-- <script src="js/jquery-1.7.2.min.js"></script>
+ <script src="bootstrap/js/bootstrap.min.js"></script>
+ <script src="js/common.js"></script>
+ <script src="js/swiper.min.js"></script> -->
+
+ <title>jieun</title>
+ </head>
+
+ <!--footer가 없는 페이지에는 body에 클래스추가-->
+<body class="pb-0">
+
+  <header>
+    <div class="header container">
+      <button type="button" class="back"></button>
+      <h2>탑승객 정보 입력</h2>
+      <button type="button" class="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+<div class="">
+  <div class="content_box_border">
+    <div class="content_box inner"><!--여정요약정보-->
+      <div class="content">
+        <div class="container">
+          <div class="form_wrap">
+            <h4>여정 정보</h4>
+            <div>
+              <span class="line">
+                <span>성인 2</span>
+                <span>아동 1</span>
+                <span>유아 1</span>
+              </span>
+              <a href="" class="tit_more">자세히보기</a>
+            </div>
+            <div class="card_border">
+                <div class="card_top">
+                  <div class="avail_info">
+                    <div class="air_time">
+                      <ul class="float-left">
+                        <li>
+                          <span class="txt_b">12:25</span>
+                          <span class="txt_s">ICN</span>
+                        </li>
+                        <li>
+                          <div class="line_wrap">
+                            <span class="line"><em></em></span>
+                            <spnn class="txt_s">20시간 40분
+                          </spnn></div>
+                        </li>
+                        <li>
+                          <span class="txt_b">00:25</span>
+                          <span class="txt_s txt-right">JFK</span>
+                        </li>
+                      </ul>
+                      <span class="plus_time">+1</span>
+                    </div>
+                    <div class="air_line">
+                      <span>
+                        <i class="icon_logo"><img src="images/icon/logo5.png"></i>
+                        <span>아시아나항공</span>
+                      </span>
+                      <span class="txt_color"><span>2</span>회 경유</span>
+                    </div>
+                  </div>
+                  <div class="avail_info">
+                    <div class="air_time">
+                      <ul class="float-left">
+                        <li>
+                          <span class="txt_b">12:25</span>
+                          <span class="txt_s">ICN</span>
+                        </li>
+                        <li>
+                          <div class="line_wrap">
+                            <span class="line"><em></em></span>
+                            <spnn class="txt_s">20시간 40분
+                          </spnn></div>
+                        </li>
+                        <li>
+                          <span class="txt_b">00:25</span>
+                          <span class="txt_s txt-right">JFK</span>
+                        </li>
+                      </ul>
+                      <span class="plus_time">+2</span>
+                    </div>
+                    <div class="air_line">
+                      <span>
+                        <i class="icon_logo"><img src="images/icon/logo5.png"></i>
+                        <span>아시아나항공</span>
+                      </span>
+                      <span class="txt_color"><span>2</span>회 경유</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card_bottom">
+                  <a class="total_wrap" href="">
+                    <span class="total">1,800,500 원
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div><!--//여정요약정보-->
+
+    <div class="content_box inner"><!--예약자 정보-->
+      <div class="content">
+        <div class="container">
+          <div class="form_wrap">
+            <h4>예약자 정보</h4>
+              <form>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">한글이름</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="한글이름">
+                    <span class="txt-validation">예약자의 한글이름을 정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">이메일 주소</label>
+                    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="이메일 주소">
+                      <span class="txt-validation">이메일주소를 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">핸드폰번호</label>
+                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="핸드폰번호">
+                      <span class="txt-validation">정확한 휴대폰 번호를 입력하세요.</span>
+                  </div>
+                </div>
+              </form>
+            </div>
+        </div>
+      </div>
+    </div><!--//예약자정보-->
+
+    <div class="content_box inner"><!--탑승객 정보-->
+      <div class="content">
+        <div class="container">
+          <div class="form_wrap">
+            <h4>탑승객 정보</h4>
+            <span class="passenger_tit"><span>성인 1</span><span> - 대표탑승객</span></span>
+              <form>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">여권상 영문 성 (예 : HONG)</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="여권상 영문 성 (예 : HONG)">
+                    <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">여권상 영문 명 (예 : GILDONG)</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="여권상 영문 명 (예 : GILDONG)">
+                    <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">생년월일 (예 : 19150202)</label>
+                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="생년월일 (예 : 19150202)">
+                      <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <div class="radio_box_inline">
+                      <span class="">
+                        <input id="text1" name="radio_test" type="radio" checked="">
+                        <label for="text1">
+                          <span>남성</span>
+                        </label>
+                      </span>
+                      <span>
+                        <input id="text2" name="radio_test" type="radio" checked="">
+                        <label for="text2">
+                          <span>여성</span>
+                        </label>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <div class="select_box">
+                      <select name="">
+                          <option value="">한국</option>
+                          <option value="미국">미국</option>
+                          <option value="중국">중국</option>
+                          <option value="영국">영국</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <div class="text_box">
+                        <h5 class="txt-primary">여권 정보 입력 안내</h5>
+                        <p>
+                          선택하신 항공편은 여권정보가 반드시 필요합니다.<br>
+                          정확한 여권정보를 입력하세요.<br><br>
+                          ※ 여권 발급 예정자이거나 확인이 어려운 경우 임의의 값을 입력한 후, 반드시 출발 72시간 전까지 예약상세 페이지에서 유효한 여권정보를 입력하세요.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">여권번호</label>
+                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="여권번호">
+                      <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">여권 만료기간</label>
+                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="여권 만료기간">
+                      <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <div class="select_box">
+                      <select name="">
+                          <option value="">여권 발행국</option>
+                          <option value="미국">미국</option>
+                          <option value="중국">중국</option>
+                          <option value="영국">영국</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+        </div>
+      </div>
+    </div><!--//탑승객 정보-->
+
+    <div class="content_box inner"><!--탑승객 정보-->
+      <div class="content">
+        <div class="container">
+          <div class="form_wrap">
+            <span class="passenger_tit"><span>아동 1</span></span>
+              <form>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">여권상 영문 성 (예 : HONG)</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="여권상 영문 성 (예 : HONG)">
+                    <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">여권상 영문 명 (예 : GILDONG)</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="여권상 영문 명 (예 : GILDONG)">
+                    <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">생년월일 (예 : 19150202)</label>
+                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="생년월일 (예 : 19150202)">
+                      <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <div class="radio_box_inline">
+                      <span class="">
+                        <input id="text1" name="radio_test" type="radio" checked="">
+                        <label for="text1">
+                          <span>남성</span>
+                        </label>
+                      </span>
+                      <span>
+                        <input id="text2" name="radio_test" type="radio" checked="">
+                        <label for="text2">
+                          <span>여성</span>
+                        </label>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <div class="select_box">
+                      <select name="">
+                          <option value="">한국</option>
+                          <option value="미국">미국</option>
+                          <option value="중국">중국</option>
+                          <option value="영국">영국</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <div class="text_box">
+                        <h5 class="txt-primary">여권 정보 입력 안내</h5>
+                        <p>
+                          선택하신 항공편은 여권정보가 반드시 필요합니다.<br>
+                          정확한 여권정보를 입력하세요.<br><br>
+                          ※ 여권 발급 예정자이거나 확인이 어려운 경우 임의의 값을 입력한 후, 반드시 출발 72시간 전까지 예약상세 페이지에서 유효한 여권정보를 입력하세요.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">여권번호</label>
+                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="여권번호">
+                      <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">여권 만료기간</label>
+                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="여권 만료기간">
+                      <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <div class="select_box">
+                      <select name="">
+                          <option value="">여권 발행국</option>
+                          <option value="미국">미국</option>
+                          <option value="중국">중국</option>
+                          <option value="영국">영국</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+        </div>
+      </div>
+    </div><!--//탑승객 정보-->
+
+    <div class="content_box inner"><!--탑승객 정보-->
+      <div class="content">
+        <div class="container">
+          <div class="form_wrap">
+            <span class="passenger_tit"><span>유아 1</span></span>
+              <form>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">여권상 영문 성 (예 : HONG)</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="여권상 영문 성 (예 : HONG)">
+                    <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">여권상 영문 명 (예 : GILDONG)</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="여권상 영문 명 (예 : GILDONG)">
+                    <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">생년월일 (예 : 19150202)</label>
+                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="생년월일 (예 : 19150202)">
+                      <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <div class="radio_box_inline">
+                      <span class="">
+                        <input id="text1" name="radio_test" type="radio" checked="">
+                        <label for="text1">
+                          <span>남성</span>
+                        </label>
+                      </span>
+                      <span>
+                        <input id="text2" name="radio_test" type="radio" checked="">
+                        <label for="text2">
+                          <span>여성</span>
+                        </label>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <div class="select_box">
+                      <select name="">
+                          <option value="">한국</option>
+                          <option value="미국">미국</option>
+                          <option value="중국">중국</option>
+                          <option value="영국">영국</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <div class="text_box">
+                        <h5 class="txt-primary">여권 정보 입력 안내</h5>
+                        <p>
+                          선택하신 항공편은 여권정보가 반드시 필요합니다.<br>
+                          정확한 여권정보를 입력하세요.<br><br>
+                          ※ 여권 발급 예정자이거나 확인이 어려운 경우 임의의 값을 입력한 후, 반드시 출발 72시간 전까지 예약상세 페이지에서 유효한 여권정보를 입력하세요.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">여권번호</label>
+                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="여권번호">
+                      <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1" class="blind">여권 만료기간</label>
+                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="여권 만료기간">
+                      <span class="txt-validation">정확히 입력하세요.</span>
+                  </div>
+                </div>
+                <div class="form-group-box">
+                  <div class="form-group">
+                    <div class="select_box">
+                      <select name="">
+                          <option value="">여권 발행국</option>
+                          <option value="미국">미국</option>
+                          <option value="중국">중국</option>
+                          <option value="영국">영국</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+        </div>
+      </div>
+    </div><!--//탑승객 정보-->
+
+
+    <div class="content_box inner"><!--탑승객 정보-->
+      <div class="content">
+        <div class="container">
+          <div class="notice_box agree">
+            <h5>탑승객 정보 입력 시 유의사항</h5>
+            <dl>
+							<dd>탑승자의 영문성명, 생년월일, 성별은 여권과 동일해야 하며, 동일하지 않을 경우 탑승이 거절될 수 있습니다. 예약 후에는 영문성명 변경이 불가할 수 있으니 예약 전 다시 한 번 확인하시기 바랍니다.</dd>
+							<dd>동일 승객의 영문성명으로 이중 예약하거나, 영문이름을 임의로 등록(FAKE NAME)하는 경우 모든 예약이 취소되거나 수수료가 부과될 수 있습니다.</dd>
+							<dd>영문성명은 띄어쓰기 및 하이픈 “-” 이 허용되지 않으니 영문으로만 정확히 기입하세요.</dd>
+							<dd>보호자 없이 혼자 여행하는 만 12세~18세 미만 청소년의 경우 항공사에 따라 탑승이 제한될 수 있으니 결제 전 고객센터로 문의하시기 바랍니다.</dd>
+						</dl>
+            <div class="agree_wrap">
+              <h5>필수 동의 항목입니다.</h5>
+              <ul>
+                <li class="">
+                  <div class="check_box">
+                    <input id="checkbox1" name="checkbox" type="checkbox">
+                    <label for="checkbox1">
+                      <span class="txt-red">탑승객의 영문성명은 여권과 정확히 일치함을 확인하고 동의합니다.</span>
+                    </label>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="check_box">
+                    <input id="checkbox2" name="checkbox" type="checkbox">
+                    <label for="checkbox2">
+                      <span class="txt-red">예약 후 미결제 및 발권철회, 이중예약 시 사전 고지 없이 취소 또는 추가수수료가 부과 될 수 있습니다.</span>
+                    </label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--//탑승객 정보-->
+    <div class="container">
+      <div class="btn-box">
+        <button type="button" class="btn btn-primary">다음</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>

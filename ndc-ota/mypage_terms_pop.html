@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="ko" xml:lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!-- css -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/header.css">
+ <link rel="stylesheet" href="css/footer.css">
+ <link rel="stylesheet" href="css/common.css">
+
+
+ <!-- js -->
+ <!-- <script src="js/jquery-1.7.2.min.js"></script>
+ <script src="bootstrap/js/bootstrap.min.js"></script>
+ <script src="js/common.js"></script>
+ <script src="js/swiper.min.js"></script> -->
+
+ <title>jieun</title>
+ </head>
+<body class="overflow_hidden">
+<!--팝업띄울때 body에 overflow:hidden 걸어주기 (이중스크롤 방지) class="overflow_hidden"-->
+<div class="popup_wrap" style="display:block;">
+  <div class="popup">
+    <div class="pop_tit">
+      <button type="button" class="btn-close">
+        <span class="blind">닫기</span>
+      </button>
+      <h4>내가 동의한 규정 보기</h4>
+    </div>
+    <div class="pop_cont">
+      <div class="">
+        <div class="content_box_border">
+          <div class="content_box">
+            <div class="content">
+              <div class="container">
+                <div class="agree_wrap">
+                  <ul>
+                    <li class="all_check">
+                      <div class="check_box">
+                        <input id="checkbox1" name="checkbox" type="checkbox" checked="checked">
+                        <label for="checkbox1">
+                          <span class="tit">전체동의</span>
+                        </label>
+                      </div>
+                    </li>
+                    <li class="on">
+                      <div class="check_box">
+                        <input id="checkbox1" name="checkbox" type="checkbox" checked="checked">
+                        <label for="checkbox1">
+                          <span class="tit">요금규정</span>
+                        </label>
+                      </div>
+                      <div class="term">
+                        <p>
+                          약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                        </p>
+                      </div>
+                    </li>
+                    <li class="">
+                      <div class="check_box">
+                        <input id="checkbox1" name="checkbox" type="checkbox" checked="checked">
+                        <label for="checkbox1">
+                          <span class="tit">예약관련</span>
+                        </label>
+                      </div>
+                      <div class="term">
+                        <p>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                        </p>
+                      </div>
+                    </li>
+                    <li class="">
+                      <div class="check_box">
+                        <input id="checkbox1" name="checkbox" type="checkbox" checked="checked">
+                        <label for="checkbox1">
+                          <span class="tit">결제관련</span>
+                        </label>
+                      </div>
+                      <div class="term">
+                        <p>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                        </p>
+                      </div>
+                    </li>
+                    <li class="">
+                      <div class="check_box">
+                        <input id="checkbox1" name="checkbox" type="checkbox" checked="checked">
+                        <label for="checkbox1">
+                          <span class="tit">결제관련</span>
+                        </label>
+                      </div>
+                      <div class="term">
+                        <p>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                        </p>
+                      </div>
+                    </li>
+                    <li class="">
+                      <div class="check_box">
+                        <input id="checkbox1" name="checkbox" type="checkbox" checked="checked">
+                        <label for="checkbox1">
+                          <span class="tit">결제관련</span>
+                        </label>
+                      </div>
+                      <div class="term">
+                        <p>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                        </p>
+                      </div>
+                    </li>
+                    <li class="">
+                      <div class="check_box">
+                        <input id="checkbox1" name="checkbox" type="checkbox" checked="checked">
+                        <label for="checkbox1">
+                          <span class="tit">결제관련</span>
+                        </label>
+                      </div>
+                      <div class="term">
+                        <p>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                          약관약관약관약관약관약관약관약관약관약관약관약관약관약관<br>
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="container">
+                <div class="btn-box">
+                    <button type="button" class="btn btn-primary">예약</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>

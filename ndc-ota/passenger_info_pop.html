@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ko" xml:lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!-- css -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/header.css">
+ <link rel="stylesheet" href="css/footer.css">
+ <link rel="stylesheet" href="css/common.css">
+
+
+ <!-- js -->
+ <!-- <script src="js/jquery-1.7.2.min.js"></script>
+ <script src="bootstrap/js/bootstrap.min.js"></script>
+ <script src="js/common.js"></script>
+ <script src="js/swiper.min.js"></script> -->
+
+ <title>jieun</title>
+ </head>
+<body class="overflow_hidden">
+<!--팝업띄울때 body에 overflow:hidden 걸어주기 (이중스크롤 방지) class="overflow_hidden"-->
+<div class="popup_wrap" style="display:block;">
+  <div class="popup">
+    <div class="pop_tit">
+      <button type="button" class="btn-close">
+        <span class="blind">닫기</span>
+      </button>
+      <h4>탑승객 정보를 <em class="txt-red">다시 한번</em> 확인하세요.</h4>
+    </div>
+    <div class="pop_cont">
+      <div class="">
+        <div class="content_box_border">
+          <div class="content_box">
+            <div class="content">
+              <div class="container">
+                <div class="text_box">
+                  승객의 영문성명은 여권과 동일해야 하며,
+                  <br>
+                  예약을 완료한 후에는 변경이 불가합니다.
+                  <br>
+                  영문성명이 여권과 다를 경우 탑승이 거절될 수 있습니다
+                </div>
+                <!-- <h4></h4> -->
+                <div class="table_wrap  mt-24">
+                  <h5>예약자 정보</h5>
+                  <table class="pop_table">
+                    <colgroup>
+                    <col style="width: 30%;">
+                    <col>
+                    </colgroup>
+                    <tbody>
+                    <tr>
+                      <th>예약자명</th>
+                      <td>홍길동</td>
+                    </tr>
+                    <tr>
+                      <th>휴대폰 번호</th>
+                      <td>010-1111-1111</td>
+                    </tr>
+                    <tr>
+                      <th>이메일 주소</th>
+                      <td>test@gmail.com</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="table_wrap">
+                  <h5>탑승객 정보</h5>
+                  <table class="pop_table">
+                    <colgroup>
+    									<col width="30%">
+    									<col width="30%">
+    									<col width="25%">
+    									<col width="*">
+    								</colgroup>
+                    <tbody>
+                    <tr>
+                      <th>영문 성</th>
+                      <th>영문 이름</th>
+                      <th>생년월일</th>
+                      <th>성별</th>
+                    </tr>
+                    <tr>
+                      <td>HONG</td>
+                      <td>GILDONG</td>
+                      <td>1900.05.05</td>
+                      <td>남</td>
+                    </tr>
+                    <tr>
+                      <td>HONG2</td>
+                      <td>GILDONG2</td>
+                      <td>1900.05.05</td>
+                      <td>남</td>
+                    </tr>
+                    <tr>
+                      <td>HONG3</td>
+                      <td>GILDONG3</td>
+                      <td>1900.05.05</td>
+                      <td>남</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="container">
+                <div class="btn_2n mt-24">
+                    <button type="button" class="btn btn-white">다시입력</button>
+                    <button type="button" class="btn btn-primary">확인</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>

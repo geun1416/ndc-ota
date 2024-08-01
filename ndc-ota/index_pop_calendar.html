@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko" xml:lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!-- css -->
+ <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/header.css">
+ <link rel="stylesheet" href="css/footer.css">
+ <link rel="stylesheet" href="css/common.css">
+
+
+ <!-- js -->
+ <!-- <script src="js/jquery-1.7.2.min.js"></script>
+ <script src="bootstrap/js/bootstrap.min.js"></script>
+ <script src="js/common.js"></script>
+ <script src="js/swiper.min.js"></script> -->
+
+ <title>jieun</title>
+ </head>
+<body class="overflow_hidden">
+<!--팝업띄울때 body에 overflow:hidden 걸어주기 (이중스크롤 방지) class="overflow_hidden"-->
+<div class="popup_wrap" style="display:block;">
+  <div class="popup calendar">
+    <div class="fixed_header">
+      <div class="pop_tit">
+        <button type="button" class="btn-close">
+          <span class="blind">닫기</span>
+        </button>
+        <h4>날짜선택</h4>
+      </div>
+      <div class="content_box_border">
+        <div class="content_box">
+          <div class="content">
+            <div class="container search_form">
+              <div class="search_form">
+                <ul class="">
+                 <li class="">
+                   <div>
+                     <a class="box day" href="">
+                       <span class="tit">가는 날</span>
+                       <span class="txt">가는날 선택</span>
+                     </a>
+                   </div>
+                   <div class="txt-right">
+                     <a class="box day" href="">
+                       <span class="tit">오는날</span>
+                       <span class="txt">오는날 선택</span>
+                     </a>
+                   </div>
+                 </li>
+                </ul>
+              </div>
+              <!--//왕복-->
+            </div>
+            <ul class="week">
+              <li class="txt-red">일</li>
+              <li>월</li>
+              <li>화</li>
+              <li>수</li>
+              <li>목</li>
+              <li>금</li>
+              <li class="txt-primary">토</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pop_cont">
+      <div class="">
+
+
+      </div>
+    </div>
+  </div>
+  <div class="fixed_btn">
+    <button type="button" class="btn btn-primary">확인</button>
+  </div>
+</div>
+
+</body>
+
+</html>
